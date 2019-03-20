@@ -36,7 +36,8 @@ pointer-events:none;
 }
 .embed-IeVjo6 a[href*="betterdocs."]:before {
 color:#bbb;
-background: rgb(22, 22, 22) url(https://i.imgur.com/vvfzdaz.png) bottom right/100px no-repeat;
+border:2px solid #f04747;
+background: rgb(22, 22, 22) url(https://i.imgur.com/5DrZs8U.png) bottom right/100px no-repeat;
 box-shadow:0 0 12px rgba(0,0,0,0.5);
 padding:7px 6px;
 padding-right: 100px;
@@ -62,11 +63,12 @@ content:'BetterDocs is an unofficial source, and should be treated as such. The 
 .embed-IeVjo6 a[href*="betterdocs.net/preview"]:before,
 .embed-IeVjo6 a[href*="betterdocs.us/preview"]:before {
   width:auto;
+  line-height:17px;
   height: 100%;
   z-index: 2;
   padding: 10px;
   color:#bbb;
-  background: rgb(22, 22, 22) url(https://i.imgur.com/vvfzdaz.png) top/30% no-repeat;
+  background: rgb(22, 22, 22) url(https://i.imgur.com/5DrZs8U.png) top/30% no-repeat;
   display: flex;
   text-align: justify;
   align-content: center;
@@ -79,8 +81,8 @@ content:'BetterDocs is an unofficial source, and should be treated as such. The 
 .wrapper-35wsBm .icon-3o6xvg[style*="/icons/153708594091655168"]::after {
 content:'BetterDocs is not an official source of themes and plugins\a and should not be trusted. The creator posts content\a without permission and it may have harmful plugins.\a Do not use BetterDocs.';
 color:#bbb;
-background: rgb(22, 22, 22) url(https://i.imgur.com/vvfzdaz.png) left/auto 100% no-repeat;
-border:2px solid rgba(0,0,0,0.7);
+background: rgb(22, 22, 22) url(https://i.imgur.com/5DrZs8U.png) left/auto 100% no-repeat;
+border:2px solid #f04747;
 box-shadow:0 0 12px rgba(0,0,0,0.5);
 padding:10px 7px 10px 100px;
 margin-top:-35px;
@@ -94,27 +96,50 @@ text-shadow:0 0 12px black;
 width: 300px;
 height: 78px;
 }
-
 .button-3To2tQ.buttonSize-DbrWhv {
 z-index: -1;
 }
-
 #app-mount .wrapper-35wsBm {
 z-index: -2!important;
 }
-
 .markup-2BOw-j .anchor-3Z-8Bb[href="https://discordapp.com/invite/D4cAkXX"] {
 color:transparent!important;
 cursor:not-allowed !important;
 pointer-events: none!important;
 letter-spacing: -1000px!important;
 }
-
 .markup-2BOw-j .anchor-3Z-8Bb[href="https://discordapp.com/invite/D4cAkXX"]:after {
 content:'Harmful Invite Detected - BetterDocs';
 color: #f04747 !important;
+margin-left:-8px;
 font-weight: bold;
 text-shadow:0 0 12px black;
 pointer-events:none;
 letter-spacing: 0;
+}
+/*Invite Browser to Discord redirect*/
+.container-2Yth53 .icon-3o6xvg[style*="/icons/153708594091655168"]::after {
+  content:'Warning About BetterDocs - \a BetterDocs is an unofficial source, and should\a be treated as such. The owner posts peoples themes\a and plugins without their permission, and also\a contains content that would not be found on the\a official BetterDiscord repos. This means it probably \a contains harmful plugins that could either get you\a into trouble with discord, or steal user account info. \aPlease stay safe, and download from official\a sources only.';
+  color:#fff;
+  background: rgb(22, 22, 22);
+  border:2px solid #f04747;
+  box-shadow:0 0 12px rgba(0,0,0,0.5);
+  padding:7px 10px 7px 7px;
+  margin-top:200px;
+  margin-left:0px;
+  border-radius:5px !important;
+  position:absolute;
+  font-weight:bold;
+  white-space: pre;
+  letter-spacing: 0;
+  text-shadow:0 0 12px black;
+}
+.container-2Yth53 {
+  z-index: -2;
+}
+.container-2Yth53 .lookFilled-1Gx00P.colorBrand-3pXr91 {
+  z-index: -1;
+}
+.container-2Yth53 .lookLink-9FtZy-.colorBrand-3pXr91 {
+  z-index: 100;
 }
