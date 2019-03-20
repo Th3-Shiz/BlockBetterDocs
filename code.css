@@ -24,6 +24,11 @@ html body #app-mount .app-19_DXt .app-2rEoOp .layers-3iHuyZ .layer-3QrUeG .conta
   visibility: visible !important;
 }
 
+.containerCozy-jafyvG .markup-2BOw-j a[href*="betterdocs."]::after {
+    content: url('https://i.imgur.com/vMNdiX1.png');
+    margin: 4px;
+}
+
 .embedLink-1G1K1D[href*="://betterdocs."],
 .containerCozy-jafyvG .markup-2BOw-j a[href*="://betterdocs."] {
   color: #f04747 !important;
@@ -40,7 +45,7 @@ html body #app-mount .app-19_DXt .app-2rEoOp .layers-3iHuyZ .layer-3QrUeG .conta
   color: #bbb;
   border: 2px solid #f04747;
   background: rgb(22, 22, 22) url(https://i.imgur.com/5DrZs8U.png) bottom right/100px no-repeat;
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+  box-shadow:0 0 12px rgba(0, 0, 0, 0.5), 0 0 12px #f04747;
   padding: 7px 6px;
   padding-right: 100px;
   margin-top: -33px;
@@ -84,7 +89,7 @@ html body #app-mount .app-19_DXt .app-2rEoOp .layers-3iHuyZ .layer-3QrUeG .conta
   color: #bbb;
   background: rgb(22, 22, 22) url(https://i.imgur.com/5DrZs8U.png) left/auto 100% no-repeat;
   border: 2px solid #f04747;
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+  box-shadow:0 0 12px rgba(0, 0, 0, 0.5), 0 0 12px #f04747;
   padding: 10px 7px 10px 100px;
   margin-top: -35px;
   margin-left: -18px;
