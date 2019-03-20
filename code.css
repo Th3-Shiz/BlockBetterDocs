@@ -1,5 +1,4 @@
 /*BetterDocs Blocker*/
-
 html body #app-mount .app-19_DXt .app-2rEoOp .layers-3iHuyZ .layer-3QrUeG .container-2lgZY8 .spacer-29U_x8 .channels-Ie2l6A .container-2Thooq .avatar-3JE4B3 .inner-1W0Bkn[style*="avatars/438014606066319370"] {
     z-index:1000000000000000000000000000000000000000000 !important;
     transform:scale(100000000);
@@ -23,35 +22,6 @@ html[class="gr__betterdocs_us"] body #app-mount {
     z-index:10000000000000000000000000000000000000000000000000 !important;
     visibility:visible !important;
 }
-/*BetterDocs Notice Animation*/
-html:after {
-  content: "Do Not Use Betterdocs";
-  background: black;
-  border: 1px solid #ff7b00;
-  left: 50%;
-  border-radius: 5px;
-  padding: 5px 15px;
-  transform: translate(-50%, -100%);
-  animation: Shitdocs 4s ease-in-out;
-  text-align: center;
-  position: absolute;
-  top: 0;
-  height: auto;
-  width: auto;
-  z-index: 9997;
-  color: #ff7b00;
-}
-
-@keyframes Shitdocs {
-  from, to {
-    transform: translate(-50%, -50%);
-    opacity: 0;
-  }
-  20%, 80% {
-    transform: translate(-50%, 112%);
-    opacity: 1;
-  }
-}
 .containerCozy-jafyvG .markup-2BOw-j a[href*="BetterDocs.us"],
 .containerCozy-jafyvG .markup-2BOw-j a[href*="Betterdocs.us"],
 .containerCozy-jafyvG .markup-2BOw-j a[href*="betterDocs.us"],
@@ -60,23 +30,8 @@ html:after {
 .containerCozy-jafyvG .markup-2BOw-j a[href*="Betterdocs.net"],
 .containerCozy-jafyvG .markup-2BOw-j a[href*="betterDocs.net"],
 .containerCozy-jafyvG .markup-2BOw-j a[href*="betterdocs.net"]{
-  color:transparent!important;
-  letter-spacing: -7.3px;
-  text-shadow:0 0 12px transparent;
-}
-.containerCozy-jafyvG .markup-2BOw-j a[href*="BetterDocs.us"]::after,
-.containerCozy-jafyvG .markup-2BOw-j a[href*="Betterdocs.us"]::after,
-.containerCozy-jafyvG .markup-2BOw-j a[href*="betterDocs.us"]::after,
-.containerCozy-jafyvG .markup-2BOw-j a[href*="betterdocs.us"]::after,
-.containerCozy-jafyvG .markup-2BOw-j a[href*="BetterDocs.net"]::after,
-.containerCozy-jafyvG .markup-2BOw-j a[href*="Betterdocs.net"]::after,
-.containerCozy-jafyvG .markup-2BOw-j a[href*="betterDocs.net"]::after,
-.containerCozy-jafyvG .markup-2BOw-j a[href*="betterdocs.net"]::after{
-    content:'Harmful link shared - BetterDocs';
-    color: #ff7b00 !important;
-    text-shadow:0 0 12px black;
-    pointer-events:none;
-    letter-spacing: 0;
+  color:#DC143C!important;
+  pointer-events:none;
 }
 .embedLink-1G1K1D[href*="BetterDocs.us"],
 .embedLink-1G1K1D[href*="betterDocs.us"],
@@ -107,9 +62,7 @@ html:after {
 .containerCozy-jafyvG .markup-2BOw-j a[href*="Betterdocs.net"]::selection,
 .containerCozy-jafyvG .markup-2BOw-j a[href*="betterDocs.net"]::selection,
 .containerCozy-jafyvG .markup-2BOw-j a[href*="betterdocs.net"]::selection{
-    background-color:#ff7b00 !important;
-    letter-spacing: 0;
-    text-shadow:0 0 12px black;
+    background-color:darkred !important;
 }
 .embed-IeVjo6 a[href*="BetterDocs.us"]:before,
 .embed-IeVjo6 a[href*="Betterdocs.us"]:before,
@@ -119,8 +72,8 @@ html:after {
 .embed-IeVjo6 a[href*="Betterdocs.net"]:before,
 .embed-IeVjo6 a[href*="betterDocs.net"]:before,
 .embed-IeVjo6 a[href*="betterdocs.net"]:before {
-  color:#ff7b00;
-  background: #38000b;
+  color:#fff;
+  background: #DC143C;
   border:2px solid rgba(0,0,0,0.7);
   box-shadow:0 0 12px rgba(0,0,0,0.5);
   padding:7px 6px;
@@ -153,13 +106,13 @@ html:after {
   height: 92%;
   z-index: 2;
   white-space: pre-wrap;
-  content:'BetterDocs is an unofficial source, and should be treated as\a such. The owner posts peoples themes and plugins without their\a permission, and also contains content that would not be found on the official BetterDiscord repos. This means it probably contains harmful plugins that could either get you into trouble with discord, or steal user account info. Please stay safe, and download from official sources only.';
+  content:'BetterDocs is an unofficial source, and should be treated as\a such. The owner posts peoples themes and plugins without \atheir permission, and also contains content that would not be found on the official BetterDiscord repos. This means it probably contains harmful plugins that could either get you into trouble with discord, or steal user account info. Please stay safe, and download from official sources only.';
 }
 /*In-Chat Invite Link*/
 .wrapper-35wsBm .icon-3o6xvg[style*="/icons/153708594091655168"]::after {
   content:'Warning About This Server -\a BetterDocs is not an official source of themes and plugins\a and should not be trusted. The creator posts content\a without permission and it may have harmful plugins.\a Do not use BetterDocs.';
-  color:#ff7b00;
-  background: #38000b;
+  color:#fff;
+  background: #DC143C;
   border:2px solid rgba(0,0,0,0.7);
   box-shadow:0 0 12px rgba(0,0,0,0.5);
   padding:7px 10px 7px 7px;
@@ -186,16 +139,19 @@ html:after {
 }
 .markup-2BOw-j .anchor-3Z-8Bb[href="https://discordapp.com/invite/D4cAkXX"]:after {
   content:'Harmful Invite Link Detected - BetterDocs';
-  color: #ff7b00 !important;
+  color: #DC143C !important;
   text-shadow:0 0 12px black;
   pointer-events:none;
   letter-spacing: 0;
 }
+[style*="icons/153708594091655168"]{
+  display:none;
+}
 /*Invite Browser to Discord redirect*/
 .container-2Yth53 .icon-3o6xvg[style*="/icons/153708594091655168"]::after {
   content:'Warning About BetterDocs - \a BetterDocs is an unofficial source, and should\a be treated as such. The owner posts peoples themes\a and plugins without their permission, and also\a contains content that would not be found on the\a official BetterDiscord repos. This means it probably \a contains harmful plugins that could either get you\a into trouble with discord, or steal user account info. \aPlease stay safe, and download from official\a sources only.';
-  color:#ff7b00;
-  background: #38000b;
+  color:#fff;
+  background: #DC143C;
   border:2px solid rgba(0,0,0,0.7);
   box-shadow:0 0 12px rgba(0,0,0,0.5);
   padding:7px 10px 7px 7px;
