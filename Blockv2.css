@@ -1,0 +1,98 @@
+/*BetterDocs Blocker*/
+html[class="gr__betterdocs_us"] body #app-mount {
+  background-size:cover !important;
+  background-repeat:no-repeat !important;
+  background-image:url('https://nfld99.com/images/Shitdocs.png') !important;
+  cursor:not-allowed !important;
+  position:absolute !important;
+  display:block !important;
+  opacity:1 !important;
+  left:0 !important;
+  top:0 !important;
+  margin:0 !important;
+  z-index:10000000000000000000000000000000000000000000000000 !important;
+  visibility:visible !important;
+}
+
+.embedLink-1G1K1D[href*="Betterdocs."],
+.containerCozy-jafyvG .markup-2BOw-j a[href*="betterdocs."]{
+  color: #38000b !important;
+  text-shadow:0 0 12px black;
+  pointer-events:none;
+}
+
+.embedLink-1G1K1D[href*="Betterdocs."]::selection,
+.containerCozy-jafyvG .markup-2BOw-j a[href*="betterdocs."]::selection{
+  background-color:darkred !important;
+}
+
+.embed-IeVjo6 a[href*="betterdocs."]:before {
+  color:#ff7b00;
+  background: #38000b;
+  border:2px solid rgba(0,0,0,0.7);
+  box-shadow:0 0 12px rgba(0,0,0,0.5);
+  padding:7px 6px;
+  margin-top:-28px;;
+  margin-left:-8px;
+  border-radius:5px !important;
+  position:absolute;
+  font-weight:bold;
+  height: 83%;
+  white-space: pre-wrap;
+  content:'This is an unofficial source, and should be treated as\a such. The owner posts peoples themes and plugins without their\a permission, and also contains content that would not be found on the official BetterDiscord repos. This means it probably contains harmful plugins that could either get you into trouble with discord, or steal user account info. Please stay safe, and download from official sources only.';
+}
+
+.embed-IeVjo6 a[href*="betterdocs."]{
+  color:transparent !important;
+  height:70px;
+}
+
+.embed-IeVjo6 a[href*="betterdocs.net/preview"]:before,
+.embed-IeVjo6 a[href*="betterdocs.us/preview"]:before {
+  width:auto;
+  height: 92%;
+  z-index: 2;
+  white-space: pre-wrap;
+  content:'This is an unofficial source, and should be treated as\a such. The owner posts peoples themes and plugins without their\a permission, and also contains content that would not be found on the official BetterDiscord repos. This means it probably contains harmful plugins that could either get you into trouble with discord, or steal user account info. Please stay safe, and download from official sources only.';
+}
+
+.markup-2BOw-j>a[href*="betterdocs."] {
+  font-size: 0;
+}
+
+.markup-2BOw-j>a[href*="betterdocs."]:after {
+  content: "Warning About BetterDocs - ";
+  color: #ff7b00;
+  font-weight: bolder;
+  font-size: 15px;
+  animation: none;
+}
+
+html:after {
+  content: "Do Not Use Betterdocs";
+  background: black;
+  border: 1px solid #ff7b00;
+  left: 50%;
+  border-radius: 5px;
+  padding: 5px 15px;
+  transform: translate(-50%, -100%);
+  animation: Shitdocs 4s ease-in-out;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  height: auto;
+  width: auto;
+  z-index: 9997;
+  color: #ff7b00;
+}
+
+@keyframes Shitdocs {
+  from, to {
+    transform: translate(-50%, -50%);
+    opacity: 0;
+  }
+  20%, 80% {
+    transform: translate(-50%, 112%);
+    opacity: 1;
+  }
+}
