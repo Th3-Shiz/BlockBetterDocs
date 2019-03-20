@@ -161,7 +161,7 @@ html[class="gr__betterdocs_us"] body #app-mount {
 }
 /*Invite Browser to Discord redirect*/
 .container-2Yth53 .icon-3o6xvg[style*="/icons/153708594091655168"]::after {
-  content:'Warning About BetterDocs - \a This page linked is an unofficial source, and should\a be treated as such. The owner posts peoples themes\a and plugins without their permission, and also\a contains content that would not be found on the\a official BetterDiscord repos. This means it probably \a contains harmful plugins that could either get you\a into trouble with discord, or steal user account info. \aPlease stay safe, and download from official\a sources only.';
+  content:'Warning About BetterDocs - \a BetterDocs unofficial source, and should\a be treated as such. The owner posts peoples themes\a and plugins without their permission, and also\a contains content that would not be found on the\a official BetterDiscord repos. This means it probably \a contains harmful plugins that could either get you\a into trouble with discord, or steal user account info. \aPlease stay safe, and download from official\a sources only.';
   color:#fff;
   background: #DC143C;
   border:2px solid rgba(0,0,0,0.7);
