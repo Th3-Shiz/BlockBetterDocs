@@ -28,11 +28,6 @@ color: #f04747 !important;
 font-weight: bold;
 pointer-events:none;
 }
-.containerCozy-jafyvG .markup-2BOw-j a[href*="anti-betterdocs.github.io"]{
-color: #0096cf !important;
-font-weight: initial !important;
-pointer-events:initial !important;
-}
 .embedLink-1G1K1D[href*="://betterdocs."]::selection,
 .containerCozy-jafyvG .markup-2BOw-j a[href*="://betterdocs."]::selection{
   background-color:transparent !important;
