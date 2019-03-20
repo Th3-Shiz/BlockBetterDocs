@@ -14,19 +14,19 @@ html[class="gr__betterdocs_us"] body #app-mount {
   visibility:visible !important;
 }
 
-.embedLink-1G1K1D[href*="Betterdocs."],
-.containerCozy-jafyvG .markup-2BOw-j a[href*="betterdocs."]{
+.embedLink-1G1K1D[href*="://betterdocs."],
+.containerCozy-jafyvG .markup-2BOw-j a[href*="://betterdocs."]{
   color: #38000b !important;
   text-shadow:0 0 12px black;
   pointer-events:none;
 }
 
-.embedLink-1G1K1D[href*="Betterdocs."]::selection,
-.containerCozy-jafyvG .markup-2BOw-j a[href*="betterdocs."]::selection{
+.embedLink-1G1K1D[href*="://betterdocs."]::selection,
+.containerCozy-jafyvG .markup-2BOw-j a[href*="://betterdocs."]::selection{
   background-color:darkred !important;
 }
 
-.embed-IeVjo6 a[href*="betterdocs."]:before {
+.embed-IeVjo6 a[href*="://betterdocs."]:before {
   color:#ff7b00;
   background: #38000b;
   border:2px solid rgba(0,0,0,0.7);
@@ -42,7 +42,7 @@ html[class="gr__betterdocs_us"] body #app-mount {
   content:'This is an unofficial source, and should be treated as\a such. The owner posts peoples themes and plugins without their\a permission, and also contains content that would not be found on the official BetterDiscord repos. This means it probably contains harmful plugins that could either get you into trouble with discord, or steal user account info. Please stay safe, and download from official sources only.';
 }
 
-.embed-IeVjo6 a[href*="betterdocs."]{
+.embed-IeVjo6 a[href*="://betterdocs."]{
   color:transparent !important;
   height:70px;
 }
@@ -56,11 +56,11 @@ html[class="gr__betterdocs_us"] body #app-mount {
   content:'This is an unofficial source, and should be treated as\a such. The owner posts peoples themes and plugins without their\a permission, and also contains content that would not be found on the official BetterDiscord repos. This means it probably contains harmful plugins that could either get you into trouble with discord, or steal user account info. Please stay safe, and download from official sources only.';
 }
 
-.markup-2BOw-j>a[href*="betterdocs."] {
+.markup-2BOw-j>a[href*="://betterdocs."] {
   font-size: 0;
 }
 
-.markup-2BOw-j>a[href*="betterdocs."]:after {
+.markup-2BOw-j>a[href*="://betterdocs."]:after {
   content: "Warning About BetterDocs - ";
   color: #ff7b00;
   font-weight: bolder;

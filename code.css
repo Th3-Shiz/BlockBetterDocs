@@ -22,8 +22,8 @@ html body #app-mount .app-19_DXt .app-2rEoOp .layers-3iHuyZ .layer-3QrUeG .conta
     opacity:1 !important;
     visibility:visible !important;
 }
-.embedLink-1G1K1D[href*="Betterdocs."],
-.containerCozy-jafyvG .markup-2BOw-j a[href*="betterdocs."]{
+.embedLink-1G1K1D[href*="://betterdocs."],
+.containerCozy-jafyvG .markup-2BOw-j a[href*="://betterdocs."]{
 color: #f04747 !important;
 font-weight: bold;
 pointer-events:none;
@@ -33,12 +33,12 @@ color: #0096cf !important;
 font-weight: initial !important;
 pointer-events:initial !important;
 }
-.embedLink-1G1K1D[href*="Betterdocs."]::selection,
-.containerCozy-jafyvG .markup-2BOw-j a[href*="betterdocs."]::selection{
+.embedLink-1G1K1D[href*="://betterdocs."]::selection,
+.containerCozy-jafyvG .markup-2BOw-j a[href*="://betterdocs."]::selection{
   background-color:transparent !important;
 }
 
-.embed-IeVjo6 a[href*="betterdocs."]:before {
+.embed-IeVjo6 a[href*="://betterdocs."]:before {
 color:#bbb;
 border:2px solid #f04747;
 background: rgb(22, 22, 22) url(https://i.imgur.com/5DrZs8U.png) bottom right/100px no-repeat;
@@ -59,7 +59,7 @@ letter-spacing: 0;
 content:'BetterDocs is an unofficial source, and should be treated as such. The owner posts peoples themes and plugins without their permission, and also contains content that would not be found on the official BetterDiscord repos. This means it probably contains harmful plugins that could either get you into trouble with discord, or steal user account info. Please stay safe, and download from official sources only.';
 }
 
-.embed-IeVjo6 a[href*="betterdocs."]{
+.embed-IeVjo6 a[href*="://betterdocs."]{
   color:transparent !important;
   height:70px;
 }
