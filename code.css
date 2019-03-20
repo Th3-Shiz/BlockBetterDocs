@@ -24,7 +24,7 @@ html body #app-mount .app-19_DXt .app-2rEoOp .layers-3iHuyZ .layer-3QrUeG .conta
   visibility: visible !important;
 }
 
-.containerCozy-jafyvG .markup-2BOw-j a[href*="betterdocs."]::after {
+.containerCozy-jafyvG .markup-2BOw-j a[href*="://betterdocs."]::after {
     content: url('https://i.imgur.com/vMNdiX1.png');
     margin: 4px;
 }
