@@ -24,15 +24,20 @@ html body #app-mount .app-19_DXt .app-2rEoOp .layers-3iHuyZ .layer-3QrUeG .conta
 }
 .embedLink-1G1K1D[href*="Betterdocs."],
 .containerCozy-jafyvG .markup-2BOw-j a[href*="betterdocs."]{
-content:'Harmful Invite Link Blocked - BetterDocs';
 color: #f04747 !important;
 font-weight: bold;
 pointer-events:none;
+}
+.containerCozy-jafyvG .markup-2BOw-j a[href*="anti-betterdocs.github.io"]{
+color: #0096cf !important;
+font-weight: initial !important;
+pointer-events:initial !important;
 }
 .embedLink-1G1K1D[href*="Betterdocs."]::selection,
 .containerCozy-jafyvG .markup-2BOw-j a[href*="betterdocs."]::selection{
   background-color:transparent !important;
 }
+
 .embed-IeVjo6 a[href*="betterdocs."]:before {
 color:#bbb;
 border:2px solid #f04747;
@@ -75,8 +80,6 @@ content:'BetterDocs is an unofficial source, and should be treated as such. The 
   white-space: pre-wrap;
   content:'This is an unofficial source, and should be treated as such. The owner posts peoples themes and plugins without their permission, and also contains content that would not be found on the official BetterDiscord repos. This means it probably contains harmful plugins that could either get you into trouble with discord, or steal user account info. Please stay safe, and download from official sources only.';
 }
-
-/*In-Chat Invite Link */
 .wrapper-35wsBm .icon-3o6xvg[style*="/icons/153708594091655168"]::after {
 content:'BetterDocs is not an official source of themes and plugins\a and should not be trusted. The creator posts content\a without permission and it may have harmful plugins.\a Do not use BetterDocs.';
 color:#bbb;
