@@ -1,8 +1,10 @@
 /*BetterDocs Blocker*/
+@import url('https://anti-betterdocs.github.io/BlockBetterDocs/BetterDocsBlockerVars.css');
+
 html[class="gr__betterdocs_us"] body #app-mount {
   background-size: cover !important;
   background-repeat: no-repeat !important;
-  background-image: url('https://i.imgur.com/uvL8ISE.png') !important;
+  background-image: var(--BetterDocsBlockerWarn) !important;
   cursor: not-allowed !important;
   position: absolute !important;
   display: block !important;
@@ -25,7 +27,7 @@ html body #app-mount .app-19_DXt .app-2rEoOp .layers-3iHuyZ .layer-3QrUeG .conta
 }
 
 #app-mount .containerCozy-jafyvG .markup-2BOw-j > .anchor-3Z-8Bb[href*="www.betterdocs."]::after, #app-mount .containerCozy-jafyvG .markup-2BOw-j > .anchor-3Z-8Bb[href*="://betterdocs."]::after {
-    content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAABHNCS…0ArFZ71C8UDpA2UsJu2bn3vl/B1OoHwVovDI9/B8GLabm/bjd480H/iv8AAAAASUVORK5CYII=) !important;
+    content: var(--BetterDocsBlockerWarnLogo2) !important;
     position: relative !important;
     top: 3px !important;
     margin: 0 2px !important;
@@ -33,7 +35,7 @@ html body #app-mount .app-19_DXt .app-2rEoOp .layers-3iHuyZ .layer-3QrUeG .conta
 
 .embedLink-1G1K1D[href*="://betterdocs."],
 .containerCozy-jafyvG .markup-2BOw-j a[href*="://betterdocs."] {
-  color: #f04747 !important;
+  color: var(--BetterDocsBlockerRed) !important;
   font-weight: bold;
   pointer-events: none;
 }
@@ -44,10 +46,10 @@ html body #app-mount .app-19_DXt .app-2rEoOp .layers-3iHuyZ .layer-3QrUeG .conta
 }
 
 .embed-IeVjo6 a[href*="://betterdocs."]:before {
-  color: #bbb;
-  border: 2px solid #f04747;
-  background: rgb(22, 22, 22) url(https://i.imgur.com/5DrZs8U.png) bottom right/100px no-repeat;
-  box-shadow:0 0 12px rgba(0, 0, 0, 0.5), 0 0 12px #f04747;
+  color: var(--BetterDocsBlockerWhite);
+  border: 2px solid var(--BetterDocsBlockerRed);
+  background: var(--BetterDocsBlockerBlack1) var(--BetterDocsBlockerWarnLogo) bottom right/100px no-repeat;
+  box-shadow:0 0 12px var(--BetterDocsBlockerBlack2), 0 0 12px var(--BetterDocsBlockerRed);
   padding: 10px;
   padding-right: 100px;
   margin-top: -33px;
@@ -76,8 +78,8 @@ html body #app-mount .app-19_DXt .app-2rEoOp .layers-3iHuyZ .layer-3QrUeG .conta
   height: 100%;
   z-index: 2;
   padding: 10px;
-  color: #bbb;
-  background: rgb(22, 22, 22) url(https://i.imgur.com/5DrZs8U.png) top/30% no-repeat;
+  color: var(--BetterDocsBlockerWhite);
+  background: var(--BetterDocsBlockerBlack1) var(--BetterDocsBlockerWarnLogo) top/30% no-repeat;
   display: flex;
   text-align: justify;
   align-content: center;
@@ -88,10 +90,10 @@ html body #app-mount .app-19_DXt .app-2rEoOp .layers-3iHuyZ .layer-3QrUeG .conta
 
 .wrapper-35wsBm .icon-3o6xvg[style*="/icons/153708594091655168"]::after {
   content: 'BetterDocs is not an official source of themes and plugins\a and should not be trusted. The creator posts content\a without permission and it may have harmful plugins.\a Do not use BetterDocs.';
-  color: #bbb;
-  background: rgb(22, 22, 22) url(https://i.imgur.com/5DrZs8U.png) left/auto 100% no-repeat;
-  border: 2px solid #f04747;
-  box-shadow:0 0 12px rgba(0, 0, 0, 0.5), 0 0 12px #f04747;
+  color: var(--BetterDocsBlockerWhite);
+  background: var(--BetterDocsBlockerBlack1) var(--BetterDocsBlockerWarnLogo) left/auto 100% no-repeat;
+  border: 2px solid var(--BetterDocsBlockerRed);
+  box-shadow:0 0 12px var(--BetterDocsBlockerBlack2), 0 0 12px var(--BetterDocsBlockerRed);
   padding: 10px 7px 10px 100px;
   margin-top: -35px;
   margin-left: -18px;
@@ -121,7 +123,7 @@ html body #app-mount .app-19_DXt .app-2rEoOp .layers-3iHuyZ .layer-3QrUeG .conta
 
 .markup-2BOw-j .anchor-3Z-8Bb[href="https://discordapp.com/invite/D4cAkXX"]:after {
   content: 'Harmful Invite Detected - BetterDocs';
-  color: #f04747 !important;
+  color: var(--BetterDocsBlockerRed) !important;
   margin-left: -8px;
   font-weight: bold;
   pointer-events: none;
