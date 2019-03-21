@@ -1,7 +1,7 @@
 /*BetterDocs Blocker*/
 @import url('https://anti-betterdocs.github.io/BlockBetterDocs/BetterDocsBlockerVars.css');
 
-html[class="gr__betterdocs_us"] body #app-mount {
+.typeWindows-1za-n7 + .platform-web .app {
   background-size: cover !important;
   background-repeat: no-repeat !important;
   background-image: var(--BetterDocsBlockerWarn) !important;
@@ -10,7 +10,7 @@ html[class="gr__betterdocs_us"] body #app-mount {
   display: block !important;
   opacity: 1 !important;
   left: 0 !important;
-  top: 0 !important;
+  top: -70px !important;
   margin: 0 !important;
   z-index: 999999999 !important;
   visibility: visible !important;
