@@ -24,9 +24,11 @@ html body #app-mount .app-19_DXt .app-2rEoOp .layers-3iHuyZ .layer-3QrUeG .conta
   visibility: visible !important;
 }
 
-.containerCozy-jafyvG .markup-2BOw-j a[href*="://betterdocs."]::after {
-    content: url('https://i.imgur.com/vMNdiX1.png');
-    margin: 4px;
+#app-mount .containerCozy-jafyvG .markup-2BOw-j > .anchor-3Z-8Bb[href*="www.betterdocs."]::after, #app-mount .containerCozy-jafyvG .markup-2BOw-j > .anchor-3Z-8Bb[href*="://betterdocs."]::after {
+    content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAABHNCS…0ArFZ71C8UDpA2UsJu2bn3vl/B1OoHwVovDI9/B8GLabm/bjd480H/iv8AAAAASUVORK5CYII=) !important;
+    position: relative !important;
+    top: 3px !important;
+    margin: 0 2px !important;
 }
 
 .embedLink-1G1K1D[href*="://betterdocs."],
