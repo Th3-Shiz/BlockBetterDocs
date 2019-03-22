@@ -1,3 +1,4 @@
 ## BlockBetterDocs
 Various tools for blocking the BetterDocs Service.
-![](https://i.imgur.com/FzUKfQo.png)
+<img src="https://i.imgur.com/FzUKfQo.png" alt="" width="200px" height="200px">
+
